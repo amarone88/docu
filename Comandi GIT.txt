@@ -1,0 +1,4 @@
+$ git config --global user.name "papero"
+$ git config --global user.name "pennuto"
+
+$ git init
