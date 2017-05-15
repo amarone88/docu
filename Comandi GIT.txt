@@ -18,3 +18,5 @@ $ git add css										//Aggiungo la directory css (non ho avuto bisogno di joll
 $ git log											//Mostra la storia di tutti i commit eccetera sul repository.
 
 Oh passiamo alla lezione 2, mo committo 'sto file gh
+
+No, non ci vado a fare il resto del corso perché è a pagamento ._.
