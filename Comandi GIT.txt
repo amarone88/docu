@@ -1,4 +1,20 @@
-$ git config --global user.name "papero"
+Lezioni da http://gitreal.codeschool.com/levels/1/challenges/4
+
+
+$ git config --global user.name "papero"			//Creo utenti generici, non assegnati a un repository specifico
 $ git config --global user.name "pennuto"
 
-$ git init
+
+$ git init											//Creo un repository. Non c'è un nome *-* 
+
+$ git status										//Interrogo il repository, quali sono i file a cui bisogna prestare attenzione?
+
+$ git add <file>									//Aggiungo i file modificati all'indice
+
+$ git commit 										//Committo al repository locale
+
+$ git add css										//Aggiungo la directory css (non ho avuto bisogno di jolly per aggiungere il suo contenuto)
+
+$ git log											//Mostra la storia di tutti i commit eccetera sul repository.
+
+Oh passiamo alla lezione 2, mo committo 'sto file gh
