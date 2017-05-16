@@ -47,4 +47,10 @@ Git branching allows users to experiment with different versions of a project by
 
 * ----------------
 https://www.codecademy.com/en/courses/learn-git/lessons/git-teamwork/exercises/remotes?action=lesson_resume&link_content_target=interstitial_lesson
-BUBU
+
+The workflow for Git collaborations typically follows this order:
+	Fetch and merge changes from the remote
+	Create a branch to work on a new project feature
+	Develop the feature on your branch and commit your work
+	Fetch and merge from the remote again (in case new commits were made while you were working)
+	Push your branch up to the remote for review
