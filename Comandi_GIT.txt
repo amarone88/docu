@@ -47,4 +47,25 @@ Git branching allows users to experiment with different versions of a project by
 
 * ----------------
 https://www.codecademy.com/en/courses/learn-git/lessons/git-teamwork/exercises/remotes?action=lesson_resume&link_content_target=interstitial_lesson
-BUBU
+
+The workflow for Git collaborations typically follows this order:
+	Fetch and merge changes from the remote
+	Create a branch to work on a new project feature
+	Develop the feature on your branch and commit your work
+	Fetch and merge from the remote again (in case new commits were made while you were working)
+	Push your branch up to the remote for review
+
+	Vediamo se cominciamo a lavorare seguendo un workflow decente. Tipo che da ora in avanti le modifiche le faccio dopo essermi messo in una branch specifica eppoi le uppo e da làddentro le si mergia nel master *-*
+
+	A remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.
+	The Git Collaborative Workflow are steps that enable smooth project development when multiple collaborators are working on the same Git project.
+	We also learned the following commands
+	
+	git clone: Creates a local copy of a remote.
+	git remote -v: Lists a Git project's remotes.
+	git fetch: Fetches work from the remote into the local copy.
+	git merge origin/master: Merges origin/master into your local branch.
+	git push origin <branch_name>: Pushes a local branch to the origin remote.
+	Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
+
+-.- Non faccio niente d'ora in avanti perché il corso è finito ._.
