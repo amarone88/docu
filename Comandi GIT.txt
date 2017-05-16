@@ -19,6 +19,7 @@ $ git log											//Mostra la storia di tutti i commit eccetera sul repository
 
 Oh passiamo alla lezione 2, mo committo 'sto file gh
 
+<<<<<<< HEAD
 No, non ci vado a fare il resto del corso perché è a pagamento ._.
 
 * ------------------------------------------------------------------------------------------------------- *
@@ -40,3 +41,6 @@ https://www.codecademy.com/en/courses/learn-git/lessons/git-backtracking/exercis
 	git add filename_1 filename_2 (or using jolly with quotes)
 
 https://www.codecademy.com/en/courses/learn-git/lessons/git-branching/exercises/why-branch?action=lesson_resume&link_content_target=interstitial_lesson
+=======
+No, non ci vado a fare il resto del corso perché è a pagamento ._.
+>>>>>>> refs/remotes/origin/master
