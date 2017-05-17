@@ -97,7 +97,6 @@ body {
 
 .likes,
 .dislikes {
-    background: #F65A5B;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -112,11 +111,25 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: background 500ms;
 }
+.likes {
+    background: #32CD32;
+}
+.dislikes {
+    background: #F65A5B;
+}
 
-.likes:hover,
+.likes:hover {
+    color: #32CD32;
+    background: rgba(50, 205, 50, 0.25);
+}
+
 .dislikes:hover {
     color: #F65A5B;
     background: rgba(246, 90, 91, 0.25);
+}
+
+.likes:hover,
+.dislikes:hover {
     transition: background 500ms;
 }
 
