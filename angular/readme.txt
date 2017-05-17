@@ -230,3 +230,11 @@ In the view, use ng-click to trigger the minusOne() function when <p class="disl
 View the AngularJS app in the browser. Click on the -0 in each product tile.
 
 /* ---------------------------------------------------------------------------- */
+https://www.codecademy.com/courses/learn-angularjs/lessons/your-first-app/exercises/your-first-app-generalizations?action=lesson_resume
+Congratulations! You built an AngularJS app from scratch. What can we generalize so far?
+
+A user visits the AngularJS app.
+The view presents the app's data through the use of expressions, filters, and directives. Directives bind new behavior HTML elements.
+A user clicks an element in the view. If the element has a directive, AngularJS runs the function.
+The function in the controller updates the state of the data.
+The view automatically changes and displays the updated data. The page doesn't need to reload at any point.
