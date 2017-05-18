@@ -16,29 +16,38 @@
   <body ng-app="AppMarketApp">
     <div class="header">
       <div class="container">
-        <h1>App Market</h1>
+        <h1>App Market <.<</h1>
+        <h1>o.o'</h1>
       </div>
     </div>
 
     <div class="main" ng-controller="MainController">
       <div class="container">
-         <div class="card">
-         <!--
-          <img class="icon" ng-src="{{ move.icon }}">
-          <h2 class="title">{{ move.title }}</h2>
-          <p class="developer">{{ move.developer }}</p>
-          <p class="price">{{ move.price | currency }}</p> 
-          -->
-            <app-info info="move"></app-info> 
+       <!--<div class="card">
+													          <img class="icon" ng-src="{{ move.icon }}">
+													          <h2 class="title">{{ move.title }}</h2>
+													          <p class="developer">{{ move.developer }}</p>
+													          <p class="price">{{ move.price | currency }}</p> 
+            <ecciuc-ciamelo infuz="move"></ecciuc-ciamelo> 
         </div>
 
         <div class="card">
-            <app-info info="shutterbugg"></app-info>
+            <ecciuc-ciamelo infuz="shutterbugg"></ecciuc-ciamelo>
         </div>
 
         <div class="card">
-            <app-info info="gameboard"></app-info> 
+            <ecciuc-ciamelo infuz="gameboard"></ecciuc-ciamelo> 
         </div>
+
+        <div class="card">
+          <ecciuc-ciamelo infuz="forecast"></ecciuc-ciamelo> 
+        </div>-->
+
+        <div ng-repeat="appa in apps" class="card">
+        	<ecciuc-ciamelo infuz="appa"></ecciuc-ciamelo>
+          	<install-app></install-app>
+        </div>
+
       </div>
     </div>
 
@@ -50,6 +59,7 @@
 
     <!-- Directives -->
     <script src="js/directives/appInfo.js"></script>
+    <script src="js/directives/installApp.js"></script>
 
 
   </body>
