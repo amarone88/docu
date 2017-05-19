@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
+	    <meta charset="utf-8" />
         <link type="text/css" rel="stylesheet" href="../css/optionalStyling.css"> 
         <link type="text/css" rel="stylesheet" href="../css/web2cal.css"> 
 		
@@ -53,10 +54,11 @@
     var ical; 
 	function getEventById()
 	{
-		alert("Getting event [eventId=15]...");
+		/*alert("Getting event [eventId=14]...");*/
 		jQuery("#outputContainer").empty();
-		var ev=ical.getEventById(15); 
+		var ev=ical.getEventById(14); 
 		jQuery("#outputContainer").html(toString(ev) +"<br/>");
+		/*alert(toString(ev) + "\n");*/
 	}
 	function refreshCal()
 	{
