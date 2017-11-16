@@ -3,7 +3,7 @@ Lezioni da http://gitreal.codeschool.com/levels/1/challenges/4
 	$ git config --global user.name "papero"			Creo utenti generici, non assegnati a un repository specifico
 	$ git config --global user.name "pennuto"
 
-	$ git init											Creo un repository. Non c'√® un nome *-* 
+	$ git init											Creo un repository. Non c'Ë® un nome *-* 
 	$ git status										Interrogo il repository, quali sono i file a cui bisogna prestare attenzione?
 	$ git add <file>									Aggiungo i file modificati all'indice
 	$ git commit 										Committo al repository locale
@@ -55,7 +55,8 @@ The workflow for Git collaborations typically follows this order:
 	*Fetch and merge from the remote again (in case new commits were made while you were working)
 	*Push your branch up to the remote for review
 
-Vediamo se cominciamo a lavorare seguendo un workflow decente. Tipo che da ora in avanti le modifiche le faccio dopo essermi messo in una branch specifica eppoi le uppo e da l√†ddentro le si mergia nel master *-*
+Vediamo se cominciamo a lavorare seguendo un workflow decente. 
+Tipo che da ora in avanti le modifiche le faccio dopo essermi messo in una branch specifica eppoi le uppo e da l‡ddentro le si mergia nel master *-*
 
 A remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.
 The Git Collaborative Workflow are steps that enable smooth project development when multiple collaborators are working on the same Git project.
